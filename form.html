@@ -5,8 +5,57 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>form</title>
+  <link rel="stylesheet" href="/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  
+  <section>
+    <form action="">
+      <h1>responsive registration form</h1>
+      <div class="input">
+        <span><i class="fas fa-envelope"></i></span>
+        <input type="email"placeholder="Email">
+      </div>
+      <div class="input">
+        <span><i class="fas fa-lock"></i></span>
+        <input type="password"placeholder="password">
+      </div>
+      <div class="input">
+        <span><i class="fas fa-lock"></i></span>
+        <input type="email"placeholder="re-type-password">
+      </div>
+      <div class="flex">
+        <div class="user">
+          <span><i class="fas fa-user"></i></span>
+          <input type="email"placeholder="first name">
+        </div>
+        <div class="user">
+          <span><i class="fas fa-user"></i></span>
+          <input type="email"placeholder="last name">
+        </div> 
+      </div>
+      <div class="radio">
+        <span><label for="male"><input id ="male"type="radio" name="gender">male</label></span>
+        <span><label for="female"><input id ="female"type="radio" name="gender">female</label></span>
+      </div>
+      <select name="" id="country">
+        <option value="">Select a country</option>
+        <option value="">bangladesh</option>
+        <option value="">australia</option>
+        <option value="">srilanka</option>
+        <option value="">pakistan</option>
+        <option value="">india</option>
+      </select>
+      <div class="checkbox">
+        <input type="checkbox">
+        <span>I agree with terms and conditions</span>
+      </div>
+      <div class="checkbox">
+        <input type="checkbox">
+        <span>I want to receive the newsletter </span>
+      </div>
+      <button type="submit">register</button>
+    </form>
+  </section>
 </body>
 </html>
